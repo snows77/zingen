@@ -1,0 +1,51 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --bg-color: #09090B;
+  --surface-color: #18181B;
+  --stroke-color: #27272A;
+  --text-color-secondary: #A1A1AA;
+  --text-color-primary: #F4F4F5;
+  --brand-color-primary: #F7B733;
+  --brand-color-secondary: #FC4A1A;
+  --brand-gradient: #FC4A1A to #F7B733;
+
+  --ff-sans: 'Inter', system-ui,sans-serif;
+  --fw-base: 400;
+  --fw-md: 500;
+  --fw-bold: 800;
+
+  /* mobile */
+  --fs-sm: 0.875rem; /* 14px */
+  --fs-base: 1rem; /* 16px */
+  --fs-lg: 1.25rem; /* 20px */
+  --fs-xl: 1.5rem; /* 24px */
+  --fs-2xl: 2.5rem; /* 40px */
+}
+
+html {
+  font-family: var(--ff-sans);
+  font-weight: var(--fw-base);
+  font-size: var(--fs-base);
+  line-height: 1.6;
+  color: var(--text-color-primary);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color-primary);
+  font-weight: var(--fw-bold);
+}
