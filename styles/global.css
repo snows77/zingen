@@ -34,6 +34,8 @@
   --fs-lg: 1.25rem; /* 20px */
   --fs-xl: 1.5rem; /* 24px */
   --fs-2xl: 2.5rem; /* 40px */
+
+  --px-lg: 1.5rem; /* 24px */
 }
 
 html {
@@ -83,6 +85,8 @@ ul[role="list"] {
     --fs-lg: 2rem; /* 24px */
     --fs-xl: 3rem; /* 32px */
     --fs-2xl: 4rem; /* 48px */
+
+    --px-lg: 2rem; /* 32px */
   }
 
 }
