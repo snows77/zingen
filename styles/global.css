@@ -52,15 +52,13 @@ html {
 
 body {
   background-color: var(--bg-color);
-  color: var(--text-color-primary);
-  font-weight: var(--fw-base);
 }
 
 h1, h2, h3 {
   line-height: 1.2;
   color: var(--text-color-primary);
   font-weight: var(--fw-bold);
-  letter-spacing: -0.04em;
+  letter-spacing: -0.04rem;
 }
 
 h1 {
@@ -94,6 +92,11 @@ a:hover {
 
 ul[role="list"] {
   list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
 }
 
 @media (width >= 80em) {
